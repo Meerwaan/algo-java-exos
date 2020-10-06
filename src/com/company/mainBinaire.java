@@ -3,8 +3,8 @@ package com.company;
 public class mainBinaire {
     /**
      * fonction de recherche binaire
-     * @param sortedArray index du tableau
-     * @param seacrh 
+     * @param sortedArray   tableau de int triee
+     * @param seacrh ellement recherché
      * @return
      */
     public static int tunBinarySeacrh(int sortedArray[],int seacrh){
