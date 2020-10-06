@@ -14,7 +14,7 @@ public class mainBinaire {
         while (low<=max){
             int mid = (low+max)/2;
             if (sortedArray[mid]<seacrh){
-                low= mid-1;
+                low= mid+1;
             }else if (sortedArray[mid]>seacrh){
                 max= mid-1;
             }else if (sortedArray[mid]==seacrh){
@@ -30,7 +30,7 @@ public class mainBinaire {
 
     public static void main(String[] args) {
         int scores[]= {1,2,3,4,5,6,7,8,9};
-        System.out.println(tunBinarySeacrh(scores, 7));
+        System.out.println(tunBinarySeacrh(scores, -10));
 
 
 
